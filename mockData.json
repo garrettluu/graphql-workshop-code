@@ -1,0 +1,55 @@
+{
+    "pokemon": [
+        {
+            "name": "Bulbasaur",
+            "description": "Very cool starter",
+            "type1": "Grass",
+            "type2": "Poison",
+            "moves": [
+                {
+                    "name": "Vine Whip",
+                    "power": 35
+                },
+                {
+                    "name": "Tackle",
+                    "power": 35
+                }
+            ]
+        },
+        {
+            "name": "Stunfisk",
+            "description": "The best Pokemon",
+            "type1": "Ground",
+            "type2": "Electric",
+            "moves": [
+                {
+                    "name": "Spark",
+                    "power": 65
+                },
+                {
+                    "name": "Mud Shot",
+                    "power": 55
+                }
+            ]
+        },
+        {
+            "name": "Pikachu",
+            "description": "OP in Smash Ultimate",
+            "type1": "Electric",
+            "moves": [
+                {
+                    "name": "Volt Tackle",
+                    "power": 120
+                },
+                {
+                    "name": "Thunderbolt",
+                    "power": 90
+                },
+                {
+                    "name": "Mega Punch",
+                    "power": 85
+                }
+            ]
+        }
+    ]
+}
