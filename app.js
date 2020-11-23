@@ -10,11 +10,11 @@ const usersRouter = require('./routes/users');
 const app = express();
 
 // GraphQL setup
-const { ApolloServer, gql } = require('apollo-server-express');
+const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');
 
 const apollo = new ApolloServer({typeDefs, resolvers});
-apollo.applyMiddleware(app);
+apollo.applyMiddleware({app});
 
 
 // view engine setup
