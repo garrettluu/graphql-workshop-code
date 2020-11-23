@@ -19,7 +19,7 @@ const typeDefs = gql`
     }
 
     type Mutation {
-        addPokemon(name: String, description: String, type1: String, type2: String, moves: String): Pokemon
+        addPokemon(name: String, description: String, type1: String, type2: String): Pokemon
         addMoveToPokemon(name: String, moveName: String, movePower: Int): Move
     }
 `;
